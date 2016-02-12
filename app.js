@@ -21,7 +21,7 @@
     //Creación de los elementos
     var userText = document.createElement('p');
     var messageText = document.createElement('p');
-    var cross = document.createElement('span');
+    var cross = document.createElement('div');
     var chatslide = document.createElement('div');
     var userTextNode = document.createTextNode(user);
     var messageTextNode = document.createTextNode(message);

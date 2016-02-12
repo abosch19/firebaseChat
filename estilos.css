@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
 }
 
 h1 {
@@ -24,13 +26,18 @@ h1 {
   top: 4px;
   right: 4px;
   color: grey;
+  width: 20px;
+  height: 20px;
   cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
 }
 
 .chat-slide-cross:hover {
   color: white;
   background-color: grey;
-  border-radius: 5px;
+
 }
 
 .form {
