@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.chat-slide {
+  border: 1px solid grey;
+  position: relative;
+  border-radius: 5px;
+}
+
+.chat-slide-cross {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: grey;
+  cursor: pointer;
+}
+
+.chat-slide-cross:hover {
+  color: white;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.chat-input{
+  width: 86.5%;
+}
