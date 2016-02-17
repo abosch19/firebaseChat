@@ -2,48 +2,72 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  font-family: Helvetica, sans-serif;
+  font-family: Titillium Web,Helvetica, sans-serif;
 }
 
 h1 {
   text-align: center;
 }
 .container {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 400px;
   border: 1px solid black;
   border-radius: 5px;
 }
 
-.chat-slide {
-  border: 1px solid grey;
+.chat {
+  height: 500px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
   position: relative;
-  border-radius: 5px;
 }
 
-.chat-slide-cross {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  color: grey;
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
-  text-align: center;
-  line-height: 20px;
-  border-radius: 50%;
-}
-
-.chat-slide-cross:hover {
-  color: white;
-  background-color: grey;
-
-}
-
-.form {
-  margin-top: 10px;
-}
 
 .chat-input{
-  width: 86.5%;
+  width: 80%;
+  margin: 10px;
+}
+
+.chat-slide {
+  padding: 5px;
+  word-wrap: break-word;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+
+.chat-slide:last-child{
+  border-bottom: none;
+}
+
+.submit {
+  color: grey;
+  cursor: pointer;
+
+}
+
+.submit:hover {
+  color: rgb(65, 102, 235);
+
+}
+
+.loading-container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.loading-item {
+  position: relative;
+  color: grey;
+  left: 40%;
+  top: 40%;
+}
+
+.text {
+  margin: 10px auto;
+  width: 400px;
+  border: 1px solid black;
 }
